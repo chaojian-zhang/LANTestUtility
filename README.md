@@ -1,4 +1,4 @@
-# Lab Test Utility
+# LAN Test Utility
 
 A super simple and light weight C# HTTP Server (using .Net Framework 4.6 class library) that serves a single webpage in local area network.
 
