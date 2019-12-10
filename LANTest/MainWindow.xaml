@@ -25,7 +25,7 @@
                 from <Hyperlink NavigateUri="https://www.flaticon.com/" RequestNavigate="Hyperlink_RequestNavigate">www.flaticon.com</Hyperlink>
                 <LineBreak/>
                 Written by: <Hyperlink NavigateUri="https://totalimagine.com" RequestNavigate="Hyperlink_RequestNavigate">Charles Zhang</Hyperlink>
-                , Source Code Available on: <Hyperlink NavigateUri="" RequestNavigate="Hyperlink_RequestNavigate">Github</Hyperlink>
+                , Source Code Available on: <Hyperlink NavigateUri="https://github.com/szinubuntu/LANTestUtility" RequestNavigate="Hyperlink_RequestNavigate">Github</Hyperlink>
                 <LineBreak/>
                 This app uses C#.Net Framework <Hyperlink NavigateUri="https://docs.microsoft.com/en-us/dotnet/api/system.net.httplistener?view=netframework-4.8" RequestNavigate="Hyperlink_RequestNavigate">HTTPListener</Hyperlink> 
                 class and is designed in WPF.
