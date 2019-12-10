@@ -1,0 +1,34 @@
+﻿<Window x:Class="LANTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LANTest"
+        mc:Ignorable="d" Closing="Window_Closing" MaxWidth="780"
+        Title="LAN Test Utility" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Content="Start Web Server" Click="Button_Click" Grid.Row="0"
+                Height="20" Margin="5"/>
+        <TextBlock Grid.Row="1" Margin="10">
+            <Bold>Credits</Bold><LineBreak/>
+                HTTP Server Code originally written by <Hyperlink NavigateUri="https://aksakalli.github.io/2014/02/24/simple-http-server-with-csparp.html" RequestNavigate="Hyperlink_RequestNavigate">Can Güney Aksakalli</Hyperlink>
+                , adopted from:
+                <Hyperlink NavigateUri="https://gist.github.com/aksakalli/9191056" RequestNavigate="Hyperlink_RequestNavigate">simple-http-server-with-csparp</Hyperlink>
+                , with modification
+                <LineBreak/>
+                App Icons made by 
+                <Hyperlink NavigateUri="https://www.flaticon.com/authors/prettycons" RequestNavigate="Hyperlink_RequestNavigate">prettycons</Hyperlink>
+                from <Hyperlink NavigateUri="https://www.flaticon.com/" RequestNavigate="Hyperlink_RequestNavigate">www.flaticon.com</Hyperlink>
+                <LineBreak/>
+                Written by: <Hyperlink NavigateUri="https://totalimagine.com" RequestNavigate="Hyperlink_RequestNavigate">Charles Zhang</Hyperlink>
+                , Source Code Available on: <Hyperlink NavigateUri="" RequestNavigate="Hyperlink_RequestNavigate">Github</Hyperlink>
+                <LineBreak/>
+                This app uses C#.Net Framework <Hyperlink NavigateUri="https://docs.microsoft.com/en-us/dotnet/api/system.net.httplistener?view=netframework-4.8" RequestNavigate="Hyperlink_RequestNavigate">HTTPListener</Hyperlink> 
+                class and is designed in WPF.
+        </TextBlock>
+    </Grid>
+</Window>
