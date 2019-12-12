@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -13,9 +13,22 @@
     <div class="container">
         <h3>LAN Test Utility</h3>
 
-        <p>Ask your friends to visit <a href="{{Address}}">{{Address}}</a> in their browsers.</p>
-        <p>If they cannot see this page, consider one of the following: </p>
+        <p>Ask your friends to visit <a href="{{Address}}">{{Address}}</a> in their browsers (use Windows command `ipconfig` for more available IP address options).</p>
+        <p>If they cannot see this page, consider one of the following (in order of relevance - latter items are less relevant): </p>
         <ul>
+            <li>
+                You might need to TURN OFF (yes, turn off completely instead of mess with inbound/outbound rules) Windows Firewalls. 
+                This is inside <strong>Control Panel\System and Security\Windows Defender Firewall\Customize Settings</storng>.
+                <ul>
+                    <li>
+                        Notice surprising enough, even if you are pretty darn sure you are on a <em>Private Network</em>, you might need to turn off
+                        <em>Public Network</em> firewall for it to work. Hopefully that's all there is to hurdle your connection within your LAN.
+                    </li>
+                    <li>
+                        Notice only the host needs to turn off firewall, and all peers usually don't need to change any network configuration on their side.
+                    </li>
+                </ul>
+            </li>
             <li>
                 The interconnection between arbitary machines might not be permitted within your current network;
             </li>
